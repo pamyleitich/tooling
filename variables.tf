@@ -1,7 +1,7 @@
 variable "bucket" {
   description = "The name of the S3 bucket"
   type        = string
-  default     = "pamys3bucket"
+  default     = "pamys3buckt"
 }
 
 variable "table" {
