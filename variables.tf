@@ -1,7 +1,7 @@
 variable "ami_id" {
   description = "The AMI ID for the instances"
   type        = string
-  default     = "ami-0b8c6b923777519db"
+  default     = "ami-04dd23e62ed049936"
 }
 
 variable "instance_type" {
@@ -14,7 +14,7 @@ variable "instance_type" {
 variable "key_name" {
   description = "The key name for the instances"
   type        = string
-  default     = "DevOps_Train2024"
+  default     = "pamyeksproject"
 }
 
 ###########################
@@ -22,12 +22,12 @@ variable "key_name" {
 ##########################
 variable "security_group_id" {
   type    = string
-  default = "sg-07b8b3043804ede33"
+  default = "sg-0213961f7e1fae181"
 }
 
 # variable "subnet_id" {
 #   type    = string
-#   default = "subnet-036b6ddb502f8eb8a"
+#   default = "subnet-0f54dd150d1546dfa"
 # }
 
 # variable "security_group_id" {
@@ -41,7 +41,7 @@ variable "security_group_id" {
 variable "subnet_id" {
   description = "The subnet ID where the instance will be deployed"
   type        = string
-  default     = "subnet-0ea3d234fba84eef9"
+  default     = "subnet-0f54dd150d1546dfa"
 }
 
 # variable "db_name" {
